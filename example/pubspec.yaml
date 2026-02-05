@@ -1,0 +1,27 @@
+name: layou_user_avatar_example
+description: Example app demonstrating layou_user_avatar usage
+version: 0.1.0
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Local package
+  layou_user_avatar:
+    path: ../
+
+  # Firebase
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.15.0
+  firebase_storage: ^11.6.0
+
+  # State management
+  flutter_riverpod: ^2.5.0
+
+flutter:
+  uses-material-design: true
