@@ -1,0 +1,42 @@
+# Build outputs
+build/
+*.g.dart
+*.freezed.dart
+
+# BMAD-related directories
+_bmad/
+_bmad-output/
+
+# AI assistant config directories
+.agent/
+.claude/
+.codex/
+.cursor/
+.gemini/
+.github/
+.opencode/
+.vscode/
+
+# Implementation notes (not needed in published package)
+IMPLEMENTATION_SUMMARY.md
+VERIFICATION.md
+WEBP_IMPLEMENTATION.md
+FINAL_SUMMARY.md
+publish.sh
+pubspec.yaml.backup
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# Test coverage
+coverage/
+
+# Misc
+*.log
